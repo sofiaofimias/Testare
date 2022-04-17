@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+body
+{
+    margin: 0;
+    padding: 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(29, 26, 26)
+}
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+    font-family: 'Nova Square', cursive;
+}
+
+h1 {
+    font-size: 5.4rem;
+    color: #fff;
+    margin-bottom: 50rem;
+    margin-left: 10rem;
+    font-family: 'Nova Square', cursive;
+}
+
+
+ .box1
+{
+    position: absolute;
+    left: 20rem;
+    width: 350px;
+    height: 245px;
+    padding: 40px;
+    background-image: url('ro.png');
+    border-radius: 0%;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container .box1 .icon{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    color: #A0D3F9;
+    background-color:black;
+    border-radius: 50%;
+    font-weight: 700px;
+    transition: 1s;
+    
+}
+/*.container .box1:nth-child(1) .icon{
+    box-shadow:  0 0 0 0 black;
+    background-color: black;
+}
+.container .box1:nth-child(1):hover .icon{
+    box-shadow:  0 0 0 400px black;
+    background-color: black;
+}
+.container .box1 .content{
+    position: relative;
+    z-index: 1;
+    transition: 0.2s;
+}
+.container .box1:hover .content{
+    color: #fff;
+}*/
+#p1,#p2,#p3{
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 23%;
+    font-family: 'Nova Square', cursive;
+}
+ .box2
+{
+    position: absolute;
+    left: 60rem;
+    width: 350px;
+    height: 245px;
+    padding: 40px;
+    background-image: url('uk.png');
+    border-radius: 0%;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*.container .box2 .icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    color: #A0D3F9;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-weight: 700px;
+    transition: 1s;
+}
+
+.container .box2:nth-child(1) .icon{
+    box-shadow:  0 0 0 0 black;
+    background: black;
+}
+
+.container .box2:nth-child(1):hover .icon{
+    box-shadow:  0 0 0 400px black;
+    background: black;
+}
+*/
+
+.container .box2 .content{
+    position: relative;
+    z-index: 1;
+    transition: 0.2s;
+}
+.container .box2:hover .content{
+    color: #fff;
+}
+
+ .box3
+{
+    position: absolute;
+    left: 100rem;
+    width: 350px;
+    height: 245px;
+    padding: 40px;
+    background-image: url('hu.png');
+    border-radius: 0%;
+    margin: 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.container .box3 .icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 40px;
+    width: 80px;
+    height: 80px;
+    color: #A0D3F9;
+    background: black;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-weight: 700px;
+    transition: 1s;
+}
+.container .box3:nth-child(1) .icon{
+    box-shadow:  0 0 0 0 black;
+    background: black;
+}
+.container .box3:nth-child(1):hover .icon{
+    box-shadow:  0 0 0 400px black;
+    background:black;
+}
+.container .box3 .content{
+    position: relative;
+    z-index: 1;
+    transition: 0.2s;
+}
+.container .box3:hover .content{
+    color: #fff;
+}
+
